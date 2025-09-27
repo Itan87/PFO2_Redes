@@ -1,0 +1,14 @@
+# Directorios de entorno virtual
+venv/
+.venv/
+
+#Archivos generados por Python
+__pycache__/
+*.pyc
+
+#Base de datos local de SQLite
+pfo_tasks.db
+
+#Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
