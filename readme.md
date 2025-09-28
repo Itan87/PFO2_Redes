@@ -6,23 +6,33 @@ Incluye un cliente en consola para interactuar con la API sin necesidad de Postm
 
 ---
 
-#### Estructura del proyecto
+## Estructura del proyecto
 
-PFO2/
-├── server.py        # Servidor API Flask
-├── client.py        # Cliente en consola
+PFO2_Redes/
+
+├── server.py        # Servidor API Flask
+
+├── client.py        # Cliente en consola
+
 ├── requirements.txt # Dependencias del proyecto
-├── imágenes/        # Carpeta con screenshots de pruebas
-    ├── api_en_linea.png
-    ├── login_exitoso.png
-    ├── login_contraseña_incorrecta.png
-    ├── registro_exitoso.png
-    ├── registro_usuario_ya_existe.png
-    ├── tareas_bienvenida.png
-    ├── tareas_contraseña_incorrecta.png
-└── README.md        # Documentación y respuestas a consignas teóricas
 
-#### Capturas de pantalla de pruebas ejecutadas
+├── imágenes/        # Carpeta con screenshots de pruebas
+
+│   ├── api_en_linea.png
+
+│   ├── login_exitoso.png
+
+│   ├── login_contraseña_incorrecta.png
+
+│   ├── registro_exitoso.png
+
+│   ├── registro_usuario_ya_existe.png
+
+│   ├── tareas_bienvenida.png
+
+│   └── tareas_contraseña_incorrecta.png
+
+└── README.md        # Documentación y respuestas a consignas teóricas
 
 ### API funcionando correctamente
 ![Api funcionando](imágenes/api_en_linea.png)
@@ -56,7 +66,7 @@ Se necesita tener instalado Python 3.x y las siguientes librerías:
 
 Instalación rápida de dependencias:
 
-`bash
+`bash`
 `pip install -r requirements.txt`
 
 #### Instrucciones para Ejecutar el Proyecto y Probarlo
@@ -69,13 +79,13 @@ Para obtener el código fuente y comenzar a trabajar, usa el siguiente comando e
 ##### ▶️ Pasos para la Ejecución
 Iniciar el servidor (API)
 Abrir la Terminal 1 y ejecutar:
-[python server.py] 
+`python server.py` 
 
 La primera vez que se ejecute, se creará la base de datos pfo_tasks.db.
 
 Iniciar el cliente
 Abrir Terminal 2 y ejecutar:
-[python client.py] 
+`python client.py` 
 Probar Endpoints (opcional)
 
 ###### ✅ Pruebas de endpoints
